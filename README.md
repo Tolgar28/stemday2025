@@ -13,5 +13,5 @@ The VM runs off a script that starts the VM and waits for a shutdown signal to t
 
 The terminal and document fonts are Noto Mono Regular 12, so that emojis show up.
 
-Run this to make sure needed tools are installed
+Run this to make sure needed tools are installed:
 sudo apt update && sudo apt install -y exiftool hashcat pkill steghide tee unzip xdg-open
