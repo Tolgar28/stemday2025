@@ -12,3 +12,6 @@ Kids will paste the flag into the verification offline html file, the correct an
 The VM runs off a script that starts the VM and waits for a shutdown signal to then reset to a given snapshot for the next group of students. There is an exit file on the desktop that is password protected with the admin password to exit the loop, since all the VirtualBox UI elements are removed, the host key will be non-default and the only way out of it would be to ctrl-alt-delete (something we can’t bypass).
 
 The terminal and document fonts are Noto Mono Regular 12, so that emojis show up.
+
+Run this to make sure needed tools are installed
+sudo apt update && sudo apt install -y exiftool hashcat pkill steghide tee unzip xdg-open
